@@ -8,7 +8,7 @@
 • 📈 En constante aprendizaje y superando nuevos retos técnicos
 • 📫 Puedes contactarme en: jheremisj9695@gmail.com
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_USUARIO) [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/TU_USUARIO)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jheremi-alexander-loachamin-lema-b69584270) [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/DevJhere)
 
 ---
 
