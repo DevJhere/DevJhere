@@ -3,7 +3,7 @@
 ## ⚡ Sobre mí
 • 💻 Estudiante de Desarrollo de Aplicaciones Web (DAW)
 • ⚙️ Apasionado por el desarrollo Full-Stack
-• 🌐 Construyendo interfaces interactivas con HTML · CSS · JavaScript
+• 🌐 Construyendo interfaces interactivas con HTML · CSS · JavaScript · React
 • 🛠️ Desarrollando lógica de negocio con Java · Spring Boot · MySQL
 • 📈 En constante aprendizaje y superando nuevos retos técnicos
 • 📫 Puedes contactarme en: jheremisj9695@gmail.com
