@@ -15,10 +15,10 @@
 ## 🛠 Tecnologías
 
 ### 🔧 Lenguajes- Backend and Frontend
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,java,php)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,java,php,react)](https://skillicons.dev)
 
 ### 🖥️ Frameworks
-[![My Skills](https://skillicons.dev/icons?i=spring,tailwind&perline=3,react)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=spring,tailwind&perline=3)](https://skillicons.dev)
 
 ### 🛠️ Herramientas y Base de datos
 [![My Skills](https://skillicons.dev/icons?i=mysql,git,github,idea,vscode&perline=3)](https://skillicons.dev)
