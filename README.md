@@ -9,19 +9,19 @@
 [![Email](https://img.shields.io/badge/Email-3b82f6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jheremisj9695@gmail.com)
 
 Estudiante de **Desarrollo de Aplicaciones Web (DAW)**, apasionado por el desarrollo Full-Stack.<br/>
-<sub>Interfaces con HTML · CSS · JavaScript · React · Lógica de negocio con Java · Spring Boot · Node.js · MySQL</sub>
+<sub>Interfaces con HTML Â· CSS Â· JavaScript Â· React Â· LÃ³gica de negocio con Java Â· Spring Boot Â· Node.js Â· MySQL</sub>
 
 </div>
 
-<h3 align="center">Claude Code, día a día</h3>
+<h3 align="center">Claude Code, dÃ­a a dÃ­a</h3>
 
 <!-- claude-code:start -->
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/DevJhere/DevJhere/main/assets/claude-code-daily.svg?v=e159c6eed9" width="100%" alt="Lines written with Claude Code per day since Oct 29, 2026: 11.6K in total, best day 6.9K on Oct 29" />
-<img src="https://raw.githubusercontent.com/DevJhere/DevJhere/main/assets/claude-code-languages.svg?v=605b26eb1a" width="100%" alt="Languages Claude Code wrote in the last 30 days: JavaScript 89%, Python 6%, HTML 3%, SQL 1%, CSS &lt;1%" />
+<img src="https://raw.githubusercontent.com/DevJhere/DevJhere/main/assets/claude-code-languages.svg?v=db4255dece" width="100%" alt="Languages Claude Code wrote in the last 30 days: JavaScript 89%, Python 6%, HTML 3%, SQL 1%, CSS &lt;1%" />
 
-<sub>Every line Claude Code writes on my laptop � refreshed hourly � Nov 3, 2026</sub>
+<sub>Cada línea que Claude Code escribe en mi equipo · actualizado cada hora · Nov 3, 2026</sub>
 
 </div>
 <!-- claude-code:end -->

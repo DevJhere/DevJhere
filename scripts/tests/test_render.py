@@ -19,7 +19,7 @@ class SectionRendererTest(unittest.TestCase):
 
     def test_it_should_stamp_the_refresh_day(self):
         section = ClaudeCodeSectionRenderer().render([CHART], date(2026, 11, 3))
-        self.assertIn("refreshed hourly · Nov 3, 2026", section)
+        self.assertIn("actualizado cada hora · Nov 3, 2026", section)
 
 
 if __name__ == "__main__":

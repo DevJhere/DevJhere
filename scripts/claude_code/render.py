@@ -25,7 +25,7 @@ class ClaudeCodeSectionRenderer:
             "",
             *[image_tag(chart) for chart in charts],
             "",
-            f"<sub>Every line Claude Code writes on my laptop · refreshed hourly · {format_full_day(refreshed_on)}</sub>",
+            f"<sub>Cada línea que Claude Code escribe en mi equipo · actualizado cada hora · {format_full_day(refreshed_on)}</sub>",
             "",
             "</div>",
         ])
