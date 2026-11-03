@@ -1,0 +1,167 @@
+#!/usr/bin/env python3
+"""Fetches language stats from all GitHub repos and updates README.md."""
+
+import json
+import subprocess
+import re
+import math
+
+GITHUB_USER = "DevJhere"
+BYTES_PER_LINE = 40
+LANGUAGES = ["JavaScript", "Java", "TypeScript", "PHP", "Python", "HTML", "CSS"]
+TOP_LANGUAGES = 5
+
+BADGE_COLORS = {
+    "JavaScript": "1e3a8a",
+    "Java": "1e3a8a",
+    "TypeScript": "1d4ed8",
+    "PHP": "2563eb",
+    "Python": "3b82f6",
+    "HTML": "60a5fa",
+    "CSS": "93c5fd",
+}
+
+BADGE_LOGO = {
+    "JavaScript": "javascript",
+    "Java": "openjdk",
+    "TypeScript": "typescript",
+    "PHP": "php",
+    "Python": "python",
+    "HTML": "html5",
+    "CSS": "css3",
+}
+
+DARK_TEXT = {"HTML", "CSS"}
+
+
+def get_all_repos():
+    """Get all repos: owned + collaborator/org member."""
+    own_repos = set()
+    contrib_repos = set()
+
+    # Own repos (public + private)
+    result = subprocess.run(
+        ["gh", "api", "user/repos", "--paginate",
+         "-q", '[.[] | select(.fork == false and .owner.login == "' + GITHUB_USER + '")] | .[].full_name'],
+        capture_output=True, text=True
+    )
+    for r in result.stdout.strip().split("\n"):
+        if r:
+            own_repos.add(r)
+
+    # Repos where user is collaborator or org member
+    result = subprocess.run(
+        ["gh", "api", f"users/{GITHUB_USER}/repos?type=all&affiliation=collaborator,organization_member",
+         "--paginate", "-q", '[.[] | select(.fork == false)] | .[].full_name'],
+        capture_output=True, text=True
+    )
+    for r in result.stdout.strip().split("\n"):
+        if r and r not in own_repos:
+            contrib_repos.add(r)
+
+    return own_repos, contrib_repos
+
+
+def get_repo_languages(repo_full_name):
+    result = subprocess.run(
+        ["gh", "api", f"repos/{repo_full_name}/languages"],
+        capture_output=True, text=True
+    )
+    try:
+        return json.loads(result.stdout)
+    except json.JSONDecodeError:
+        return {}
+
+
+def get_contribution_ratio(repo_full_name):
+    """Get the ratio of lines contributed by GITHUB_USER in a repo."""
+    result = subprocess.run(
+        ["gh", "api", f"repos/{repo_full_name}/stats/contributors"],
+        capture_output=True, text=True
+    )
+    try:
+        contributors = json.loads(result.stdout)
+        if not isinstance(contributors, list):
+            return 0.0
+        total_additions = 0
+        user_additions = 0
+        for c in contributors:
+            additions = sum(w.get("a", 0) for w in c.get("weeks", []))
+            total_additions += additions
+            if c.get("author", {}).get("login", "").lower() == GITHUB_USER.lower():
+                user_additions = additions
+        if total_additions == 0:
+            return 0.0
+        return user_additions / total_additions
+    except (json.JSONDecodeError, TypeError):
+        return 0.0
+
+
+def format_lines(lines):
+    if lines >= 1000000:
+        return f"{lines / 1000000:.2f}M"
+    if lines >= 1000:
+        return f"{lines / 1000:.1f}K"
+    return str(lines)
+
+
+def main():
+    own_repos, contrib_repos = get_all_repos()
+    totals = {}
+
+    # Own repos: count everything
+    for repo in own_repos:
+        langs = get_repo_languages(repo)
+        for lang, bytes_count in langs.items():
+            if lang in LANGUAGES:
+                totals[lang] = totals.get(lang, 0) + bytes_count
+
+    # Contributor repos: count only user's contribution ratio
+    for repo in contrib_repos:
+        ratio = get_contribution_ratio(repo)
+        if ratio <= 0:
+            continue
+        langs = get_repo_languages(repo)
+        for lang, bytes_count in langs.items():
+            if lang in LANGUAGES:
+                totals[lang] = totals.get(lang, 0) + int(bytes_count * ratio)
+
+    repos = own_repos | contrib_repos
+
+    sorted_langs = sorted(
+        [(lang, totals.get(lang, 0)) for lang in LANGUAGES],
+        key=lambda x: -x[1]
+    )
+
+    total_lines = sum(b // BYTES_PER_LINE for _, b in sorted_langs)
+    total_str = format_lines(total_lines)
+
+    badges = []
+    for lang, bytes_count in sorted_langs[:TOP_LANGUAGES]:
+        loc = bytes_count // BYTES_PER_LINE
+        if loc == 0:
+            continue
+        color = BADGE_COLORS[lang]
+        logo = BADGE_LOGO[lang]
+        text_color = "black" if lang in DARK_TEXT else "white"
+        badges.append(
+            f"![{lang}](https://img.shields.io/badge/{lang}-{format_lines(loc)}_lines-{color}"
+            f"?style=flat-square&logo={logo}&logoColor={text_color})"
+        )
+
+    new_section = "\n".join(badges)
+
+    with open("README.md", "r") as f:
+        readme = f.read()
+
+    pattern = r"(<!-- languages:start -->\n).*?(<!-- languages:end -->)"
+    readme = re.sub(pattern, lambda m: m.group(1) + new_section + "\n" + m.group(2), readme, count=1, flags=re.DOTALL)
+
+    with open("README.md", "w") as f:
+        f.write(readme)
+
+    print(f"Updated languages section with {len(repos)} repos, {total_str} total lines")
+
+
+if __name__ == "__main__":
+    main()

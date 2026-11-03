@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="392" viewBox="0 0 880 392" role="img" aria-label="Lines written with Claude Code per day since Oct 29, 2026: 11.6K in total, best day 6.9K on Oct 29">
+<title>Lines written with Claude Code per day since Oct 29, 2026: 11.6K in total, best day 6.9K on Oct 29</title>
+<style>
+svg {
+  --surface: #ffffff; --border: #cbd5e1; --grid: #e2e8f0;
+  --ink: #1f2328; --ink-2: #59636e; --ink-3: #818b98;
+  --accent: #1e3a8a; --accent-soft: rgba(30, 58, 138, 0.14); --track: #e2e8f0;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --other: #a3a29d;
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  svg {
+    --surface: #0a1628; --border: #1e3a5f; --grid: #12233d;
+    --ink: #f0f6fc; --ink-2: #9198a1; --ink-3: #656c76;
+    --accent: #60a5fa; --accent-soft: rgba(96, 165, 250, 0.18); --track: #12233d;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --other: #6b6a66;
+  }
+}
+.card { fill: var(--surface); stroke: var(--border); }
+.title { fill: var(--ink); font-size: 16px; font-weight: 600; }
+.subtitle { fill: var(--ink-2); font-size: 12px; }
+.stat { fill: var(--ink); font-size: 22px; font-weight: 600; }
+.stat-label { fill: var(--ink-2); font-size: 11px; }
+.name { fill: var(--ink); font-size: 12px; }
+.value { fill: var(--ink-2); font-size: 12px; font-variant-numeric: tabular-nums; }
+.axis { fill: var(--ink-3); font-size: 10px; font-variant-numeric: tabular-nums; }
+.label { fill: var(--ink); font-size: 11px; font-weight: 600; }
+.panel { fill: var(--ink-2); font-size: 11px; font-weight: 600; }
+.grid { stroke: var(--grid); stroke-width: 1; }
+.divider { stroke: var(--border); stroke-width: 1; }
+.track { fill: var(--track); }
+.bar { fill: var(--accent); transform-box: fill-box; transform-origin: bottom;
+  animation: grow 0.7s cubic-bezier(.2,.8,.2,1) both; }
+.hbar { fill: var(--accent); transform-box: fill-box; transform-origin: left;
+  animation: widen 0.9s cubic-bezier(.2,.8,.2,1) both; }
+.segment { transform-box: fill-box; transform-origin: left; animation: widen 0.9s cubic-bezier(.2,.8,.2,1) both; }
+.area { fill: var(--accent-soft); animation: fade 1.2s ease-out both; }
+.trend { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round;
+  stroke-dasharray: 1; animation: draw 1.4s ease-out both; }
+.dot { fill: var(--accent); stroke: var(--surface); stroke-width: 2; }
+.s1 { fill: var(--s1); } .s2 { fill: var(--s2); } .s3 { fill: var(--s3); }
+.s4 { fill: var(--s4); } .s5 { fill: var(--s5); } .other { fill: var(--other); }
+@keyframes grow { from { transform: scaleY(0); } }
+@keyframes widen { from { transform: scaleX(0); } }
+@keyframes fade { from { opacity: 0; } }
+@keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect class="card" x="0.5" y="0.5" width="879" height="391" rx="12"/>
+<text x="24.0" y="38.0" class="title" text-anchor="start">Lines written with Claude Code</text>
+<text x="24.0" y="58.0" class="subtitle" text-anchor="start">Every day since Oct 29, 2026 · lines added, not commits</text>
+<text x="24.0" y="102.0" class="stat" text-anchor="start">11.6K</text>
+<text x="24.0" y="120.0" class="stat-label" text-anchor="start">lines since Oct 29</text>
+<text x="232.0" y="102.0" class="stat" text-anchor="start">11.6K</text>
+<text x="232.0" y="120.0" class="stat-label" text-anchor="start">last 30 days</text>
+<text x="440.0" y="102.0" class="stat" text-anchor="start">1 day</text>
+<text x="440.0" y="120.0" class="stat-label" text-anchor="start">current streak</text>
+<text x="648.0" y="102.0" class="stat" text-anchor="start">6.9K</text>
+<text x="648.0" y="120.0" class="stat-label" text-anchor="start">best day · Oct 29</text>
+<text x="24.0" y="158.0" class="panel" text-anchor="start">LINES PER DAY</text>
+<line x1="68.0" y1="274.0" x2="856.0" y2="274.0" class="grid"/>
+<text x="60.0" y="277.0" class="axis" text-anchor="end">0</text>
+<line x1="68.0" y1="248.5" x2="856.0" y2="248.5" class="grid"/>
+<text x="60.0" y="251.5" class="axis" text-anchor="end">2.0K</text>
+<line x1="68.0" y1="223.0" x2="856.0" y2="223.0" class="grid"/>
+<text x="60.0" y="226.0" class="axis" text-anchor="end">4.0K</text>
+<line x1="68.0" y1="197.5" x2="856.0" y2="197.5" class="grid"/>
+<text x="60.0" y="200.5" class="axis" text-anchor="end">6.0K</text>
+<line x1="68.0" y1="172.0" x2="856.0" y2="172.0" class="grid"/>
+<text x="60.0" y="175.0" class="axis" text-anchor="end">8.0K</text>
+<path d="M69.0,274.0 V189.4 Q69.0,185.4 73.0,185.4 H194.3 Q198.3,185.4 198.3,189.4 V274.0 Z" class="bar" style="animation-delay:0ms"/>
+<path d="M200.3,274.0 V254.5 Q200.3,250.5 204.3,250.5 H325.7 Q329.7,250.5 329.7,254.5 V274.0 Z" class="bar" style="animation-delay:6ms"/>
+<path d="M331.7,274.0 V242.9 Q331.7,238.9 335.7,238.9 H457.0 Q461.0,238.9 461.0,242.9 V274.0 Z" class="bar" style="animation-delay:12ms"/>
+<path d="M725.7,274.0 V274.0 Q725.7,273.5 726.2,273.5 H854.5 Q855.0,273.5 855.0,274.0 V274.0 Z" class="bar" style="animation-delay:30ms"/>
+<text x="139.7" y="189.4" class="label" text-anchor="start">6.9K</text>
+<text x="24.0" y="296.0" class="panel" text-anchor="start">RUNNING TOTAL</text>
+<line x1="68.0" y1="352.0" x2="856.0" y2="352.0" class="grid"/>
+<text x="60.0" y="355.0" class="axis" text-anchor="end">0</text>
+<path d="M133.7,326.8 L265.0,320.1 L396.3,310.2 L527.7,310.2 L659.0,310.2 L790.3,310.0 L790.3,352.0 L133.7,352.0 Z" class="area"/>
+<path d="M133.7,326.8 L265.0,320.1 L396.3,310.2 L527.7,310.2 L659.0,310.2 L790.3,310.0" class="trend" pathLength="1"/>
+<circle cx="790.3" cy="310.0" r="4.0" class="dot"/>
+<text x="782.3" y="302.0" class="label" text-anchor="end">11.6K</text>
+<text x="68.0" y="372.0" class="axis" text-anchor="start">Oct 29</text>
+<text x="856.0" y="372.0" class="axis" text-anchor="end">Nov 3</text>
+<text x="462.0" y="372.0" class="axis" text-anchor="middle">Nov</text>
+</svg>
