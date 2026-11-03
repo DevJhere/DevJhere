@@ -48,7 +48,7 @@ svg {
 </style>
 <rect class="card" x="0.5" y="0.5" width="879" height="267" rx="12"/>
 <text x="24.0" y="38.0" class="title" text-anchor="start">Languages</text>
-<text x="24.0" y="58.0" class="subtitle" text-anchor="start">Share of lines written · last 30 days</text>
+<text x="24.0" y="58.0" class="subtitle" text-anchor="start">Share of lines written Â· last 30 days</text>
 <rect x="24.0" y="82.0" width="392.0" height="12.0" rx="6.0" class="track"/>
 <rect x="24.0" y="82.0" width="342.2" height="12.0" rx="2.0" class="segment s1" style="animation-delay:0ms"/>
 <rect x="368.2" y="82.0" width="24.0" height="12.0" rx="2.0" class="segment s2" style="animation-delay:90ms"/>
@@ -57,22 +57,22 @@ svg {
 <rect x="414.5" y="82.0" width="1.5" height="12.0" rx="2.0" class="segment s5" style="animation-delay:360ms"/>
 <rect x="24.0" y="115.0" width="10.0" height="10.0" rx="2.0" class="s1"/>
 <text x="42.0" y="124.0" class="name" text-anchor="start">JavaScript</text>
-<text x="416.0" y="124.0" class="value" text-anchor="end">9.7K lines · 89%</text>
+<text x="416.0" y="124.0" class="value" text-anchor="end">9.7K lines Â· 89%</text>
 <rect x="24.0" y="137.0" width="10.0" height="10.0" rx="2.0" class="s2"/>
 <text x="42.0" y="146.0" class="name" text-anchor="start">Python</text>
-<text x="416.0" y="146.0" class="value" text-anchor="end">677 lines · 6%</text>
+<text x="416.0" y="146.0" class="value" text-anchor="end">677 lines Â· 6%</text>
 <rect x="24.0" y="159.0" width="10.0" height="10.0" rx="2.0" class="s3"/>
 <text x="42.0" y="168.0" class="name" text-anchor="start">HTML</text>
-<text x="416.0" y="168.0" class="value" text-anchor="end">327 lines · 3%</text>
+<text x="416.0" y="168.0" class="value" text-anchor="end">327 lines Â· 3%</text>
 <rect x="24.0" y="181.0" width="10.0" height="10.0" rx="2.0" class="s4"/>
 <text x="42.0" y="190.0" class="name" text-anchor="start">SQL</text>
-<text x="416.0" y="190.0" class="value" text-anchor="end">135 lines · 1%</text>
+<text x="416.0" y="190.0" class="value" text-anchor="end">135 lines Â· 1%</text>
 <rect x="24.0" y="203.0" width="10.0" height="10.0" rx="2.0" class="s5"/>
 <text x="42.0" y="212.0" class="name" text-anchor="start">CSS</text>
-<text x="416.0" y="212.0" class="value" text-anchor="end">41 lines · &lt;1%</text>
+<text x="416.0" y="212.0" class="value" text-anchor="end">41 lines Â· &lt;1%</text>
 <line x1="440.0" y1="24.0" x2="440.0" y2="244.0" class="divider"/>
 <text x="464.0" y="38.0" class="title" text-anchor="start">Models</text>
-<text x="464.0" y="58.0" class="subtitle" text-anchor="start">Share of requests · last 30 days</text>
+<text x="464.0" y="58.0" class="subtitle" text-anchor="start">Share of requests Â· last 30 days</text>
 <text x="464.0" y="92.0" class="name" text-anchor="start">Sonnet 5.5</text>
 <rect x="556.0" y="84.0" width="256.0" height="8.0" rx="4.0" class="track"/>
 <rect x="556.0" y="84.0" width="255.5" height="8.0" rx="4.0" class="hbar" style="animation-delay:0ms"/>
@@ -85,7 +85,7 @@ svg {
 <text x="464.0" y="240.0" class="stat-label" text-anchor="start">sessions</text>
 <text x="562.0" y="222.0" class="stat" text-anchor="start">161</text>
 <text x="562.0" y="240.0" class="stat-label" text-anchor="start">files touched</text>
-<text x="660.0" y="222.0" class="stat" text-anchor="start">659.5K</text>
+<text x="660.0" y="222.0" class="stat" text-anchor="start">663.0K</text>
 <text x="660.0" y="240.0" class="stat-label" text-anchor="start">output tokens</text>
 <text x="758.0" y="222.0" class="stat" text-anchor="start">4/30</text>
 <text x="758.0" y="240.0" class="stat-label" text-anchor="start">active days</text>

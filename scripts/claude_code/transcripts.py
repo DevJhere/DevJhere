@@ -98,7 +98,7 @@ class TranscriptRepository:
 
     def _read_cache(self) -> dict:
         try:
-            content = json.loads(self._cache_file.read_text())
+            content = json.loads(self._cache_file.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             return {}
         return content.get("files", {}) if content.get("version") == CACHE_VERSION else {}
@@ -106,7 +106,7 @@ class TranscriptRepository:
     def _write_cache(self, files: dict) -> None:
         self._cache_file.parent.mkdir(parents=True, exist_ok=True)
         temporary = self._cache_file.with_suffix(".tmp")
-        temporary.write_text(json.dumps({"version": CACHE_VERSION, "files": files}))
+        temporary.write_text(json.dumps({"version": CACHE_VERSION, "files": files}), encoding="utf-8")
         temporary.replace(self._cache_file)
 
 

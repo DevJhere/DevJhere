@@ -14,7 +14,7 @@ def main():
     for chart in section.charts:
         target = REPOSITORY_ROOT / chart.path
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(chart.content)
+        target.write_text(chart.content, encoding="utf-8", newline="\n")
     changed = ReadmeFile(REPOSITORY_ROOT / "README.md").replace_section(SECTION_NAME, section.markdown)
     print("README updated" if changed else "README already up to date")
 

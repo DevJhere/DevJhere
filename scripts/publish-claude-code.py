@@ -27,7 +27,7 @@ def main():
     for chart in section.charts:
         target = CLONE_DIR / chart.path
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(chart.content)
+        target.write_text(chart.content, encoding="utf-8", newline="\n")
     changed = ReadmeFile(CLONE_DIR / README).replace_section(SECTION_NAME, section.markdown)
     log("section changed" if changed else "section unchanged")
     publisher.publish([README, *[chart.path for chart in section.charts]], "chore: update Claude Code stats")

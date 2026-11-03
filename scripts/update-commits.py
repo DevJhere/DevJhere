@@ -93,13 +93,13 @@ def build_section(per_year, total, repo_count):
 
 
 def update_readme(section):
-    with open("README.md", "r") as f:
+    with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
     pattern = r"(<!-- activity:start -->\n).*?(<!-- activity:end -->)"
     readme = re.sub(pattern, lambda m: m.group(1) + section + "\n" + m.group(2), readme, count=1, flags=re.DOTALL)
 
-    with open("README.md", "w") as f:
+    with open("README.md", "w", encoding="utf-8", newline="\n") as f:
         f.write(readme)
 
 

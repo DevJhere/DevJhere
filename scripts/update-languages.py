@@ -151,13 +151,13 @@ def main():
 
     new_section = "\n".join(badges)
 
-    with open("README.md", "r") as f:
+    with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
     pattern = r"(<!-- languages:start -->\n).*?(<!-- languages:end -->)"
     readme = re.sub(pattern, lambda m: m.group(1) + new_section + "\n" + m.group(2), readme, count=1, flags=re.DOTALL)
 
-    with open("README.md", "w") as f:
+    with open("README.md", "w", encoding="utf-8", newline="\n") as f:
         f.write(readme)
 
     print(f"Updated languages section with {len(repos)} repos, {total_str} total lines")

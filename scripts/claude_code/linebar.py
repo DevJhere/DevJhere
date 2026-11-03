@@ -11,7 +11,7 @@ class LineBarHistory:
 
     def daily_lines(self) -> dict[date, int]:
         try:
-            days = json.loads(self._stats_file.read_text()).get("days") or {}
+            days = json.loads(self._stats_file.read_text(encoding="utf-8")).get("days") or {}
         except (OSError, json.JSONDecodeError):
             return {}
         return {date.fromisoformat(day): int(stats.get("linesAdded") or 0) for day, stats in days.items()}
