@@ -23,9 +23,13 @@ Estudiante de **Desarrollo de Aplicaciones Web (DAW)**, apasionado por el desarr
 <div align="center">
 
 <!-- activity:start -->
+![Commits](https://img.shields.io/badge/Commits-0-1e3a8a?style=flat-square&logo=git&logoColor=white)
+![2026](https://img.shields.io/badge/2026-0_commits-2563eb?style=flat-square&logo=github&logoColor=white)
+![Repositories](https://img.shields.io/badge/Repositories-0-60a5fa?style=flat-square&logo=github&logoColor=white)
 <!-- activity:end -->
 
 <!-- languages:start -->
+
 <!-- languages:end -->
 
 </div>
