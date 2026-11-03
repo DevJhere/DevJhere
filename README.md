@@ -9,11 +9,11 @@
 [![Email](https://img.shields.io/badge/Email-3b82f6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jheremisj9695@gmail.com)
 
 Estudiante de **Desarrollo de Aplicaciones Web (DAW)**, apasionado por el desarrollo Full-Stack.<br/>
-<sub>Interfaces con HTML Â· CSS Â· JavaScript Â· React Â· LÃ³gica de negocio con Java Â· Spring Boot Â· Node.js Â· MySQL</sub>
+<sub>Interfaces con HTML · CSS · JavaScript · React · Lógica de negocio con Java · Spring Boot · Node.js · MySQL</sub>
 
 </div>
 
-<h3 align="center">Claude Code, dÃ­a a dÃ­a</h3>
+<h3 align="center">Claude Code, día a día</h3>
 
 <!-- claude-code:start -->
 <div align="center">
