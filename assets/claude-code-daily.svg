@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="392" viewBox="0 0 880 392" role="img" aria-label="Lines written with Claude Code per day since Oct 29, 2026: 11.6K in total, best day 6.9K on Oct 29">
-<title>Lines written with Claude Code per day since Oct 29, 2026: 11.6K in total, best day 6.9K on Oct 29</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="392" viewBox="0 0 880 392" role="img" aria-label="Lines written with Claude Code per day since Oct 29, 2026: 12.0K in total, best day 6.9K on Oct 29">
+<title>Lines written with Claude Code per day since Oct 29, 2026: 12.0K in total, best day 6.9K on Oct 29</title>
 <style>
 svg {
   --surface: #ffffff; --border: #cbd5e1; --grid: #e2e8f0;
@@ -49,11 +49,11 @@ svg {
 <rect class="card" x="0.5" y="0.5" width="879" height="391" rx="12"/>
 <text x="24.0" y="38.0" class="title" text-anchor="start">Lines written with Claude Code</text>
 <text x="24.0" y="58.0" class="subtitle" text-anchor="start">Every day since Oct 29, 2026 · lines added, not commits</text>
-<text x="24.0" y="102.0" class="stat" text-anchor="start">11.6K</text>
+<text x="24.0" y="102.0" class="stat" text-anchor="start">12.0K</text>
 <text x="24.0" y="120.0" class="stat-label" text-anchor="start">lines since Oct 29</text>
-<text x="232.0" y="102.0" class="stat" text-anchor="start">11.6K</text>
+<text x="232.0" y="102.0" class="stat" text-anchor="start">12.0K</text>
 <text x="232.0" y="120.0" class="stat-label" text-anchor="start">last 30 days</text>
-<text x="440.0" y="102.0" class="stat" text-anchor="start">0 days</text>
+<text x="440.0" y="102.0" class="stat" text-anchor="start">1 day</text>
 <text x="440.0" y="120.0" class="stat-label" text-anchor="start">current streak</text>
 <text x="648.0" y="102.0" class="stat" text-anchor="start">6.9K</text>
 <text x="648.0" y="120.0" class="stat-label" text-anchor="start">best day · Oct 29</text>
@@ -72,14 +72,15 @@ svg {
 <path d="M167.5,274.0 V254.5 Q167.5,250.5 171.5,250.5 H260.0 Q264.0,250.5 264.0,254.5 V274.0 Z" class="bar" style="animation-delay:6ms"/>
 <path d="M266.0,274.0 V242.9 Q266.0,238.9 270.0,238.9 H358.5 Q362.5,238.9 362.5,242.9 V274.0 Z" class="bar" style="animation-delay:12ms"/>
 <path d="M561.5,274.0 V274.0 Q561.5,273.3 562.2,273.3 H657.3 Q658.0,273.3 658.0,274.0 V274.0 Z" class="bar" style="animation-delay:30ms"/>
+<path d="M758.5,274.0 V272.8 Q758.5,268.8 762.5,268.8 H851.0 Q855.0,268.8 855.0,272.8 V274.0 Z" class="bar" style="animation-delay:42ms"/>
 <text x="123.2" y="189.4" class="label" text-anchor="start">6.9K</text>
 <text x="24.0" y="296.0" class="panel" text-anchor="start">RUNNING TOTAL</text>
 <line x1="68.0" y1="352.0" x2="856.0" y2="352.0" class="grid"/>
 <text x="60.0" y="355.0" class="axis" text-anchor="end">0</text>
-<path d="M117.2,326.8 L215.8,320.2 L314.2,310.2 L412.8,310.2 L511.2,310.2 L609.8,310.0 L708.2,310.0 L806.8,310.0 L806.8,352.0 L117.2,352.0 Z" class="area"/>
-<path d="M117.2,326.8 L215.8,320.2 L314.2,310.2 L412.8,310.2 L511.2,310.2 L609.8,310.0 L708.2,310.0 L806.8,310.0" class="trend" pathLength="1"/>
+<path d="M117.2,327.7 L215.8,321.2 L314.2,311.6 L412.8,311.6 L511.2,311.6 L609.8,311.4 L708.2,311.4 L806.8,310.0 L806.8,352.0 L117.2,352.0 Z" class="area"/>
+<path d="M117.2,327.7 L215.8,321.2 L314.2,311.6 L412.8,311.6 L511.2,311.6 L609.8,311.4 L708.2,311.4 L806.8,310.0" class="trend" pathLength="1"/>
 <circle cx="806.8" cy="310.0" r="4.0" class="dot"/>
-<text x="798.8" y="302.0" class="label" text-anchor="end">11.6K</text>
+<text x="798.8" y="302.0" class="label" text-anchor="end">12.0K</text>
 <text x="68.0" y="372.0" class="axis" text-anchor="start">Oct 29</text>
 <text x="856.0" y="372.0" class="axis" text-anchor="end">Nov 5</text>
 <text x="363.5" y="372.0" class="axis" text-anchor="middle">Nov</text>
