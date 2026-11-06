@@ -73,13 +73,13 @@ svg {
 <path d="M244.1,274.0 V242.9 Q244.1,238.9 248.1,238.9 H325.7 Q329.7,238.9 329.7,242.9 V274.0 Z" class="bar" style="animation-delay:12ms"/>
 <path d="M506.8,274.0 V274.0 Q506.8,273.3 507.4,273.3 H591.7 Q592.3,273.3 592.3,274.0 V274.0 Z" class="bar" style="animation-delay:30ms"/>
 <path d="M681.9,274.0 V272.8 Q681.9,268.8 685.9,268.8 H763.4 Q767.4,268.8 767.4,272.8 V274.0 Z" class="bar" style="animation-delay:42ms"/>
-<path d="M769.4,274.0 V267.7 Q769.4,263.7 773.4,263.7 H851.0 Q855.0,263.7 855.0,267.7 V274.0 Z" class="bar" style="animation-delay:48ms"/>
+<path d="M769.4,274.0 V267.4 Q769.4,263.4 773.4,263.4 H851.0 Q855.0,263.4 855.0,267.4 V274.0 Z" class="bar" style="animation-delay:48ms"/>
 <text x="117.8" y="189.4" class="label" text-anchor="start">6.9K</text>
 <text x="24.0" y="296.0" class="panel" text-anchor="start">RUNNING TOTAL</text>
 <line x1="68.0" y1="352.0" x2="856.0" y2="352.0" class="grid"/>
 <text x="60.0" y="355.0" class="axis" text-anchor="end">0</text>
-<path d="M111.8,329.2 L199.3,323.2 L286.9,314.1 L374.4,314.1 L462.0,314.1 L549.6,314.0 L637.1,314.0 L724.7,312.6 L812.2,310.0 L812.2,352.0 L111.8,352.0 Z" class="area"/>
-<path d="M111.8,329.2 L199.3,323.2 L286.9,314.1 L374.4,314.1 L462.0,314.1 L549.6,314.0 L637.1,314.0 L724.7,312.6 L812.2,310.0" class="trend" pathLength="1"/>
+<path d="M111.8,329.3 L199.3,323.2 L286.9,314.2 L374.4,314.2 L462.0,314.2 L549.6,314.0 L637.1,314.0 L724.7,312.7 L812.2,310.0 L812.2,352.0 L111.8,352.0 Z" class="area"/>
+<path d="M111.8,329.3 L199.3,323.2 L286.9,314.2 L374.4,314.2 L462.0,314.2 L549.6,314.0 L637.1,314.0 L724.7,312.7 L812.2,310.0" class="trend" pathLength="1"/>
 <circle cx="812.2" cy="310.0" r="4.0" class="dot"/>
 <text x="804.2" y="302.0" class="label" text-anchor="end">12.8K</text>
 <text x="68.0" y="372.0" class="axis" text-anchor="start">Oct 29</text>
