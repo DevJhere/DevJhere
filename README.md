@@ -19,7 +19,7 @@ Estudiante de **Desarrollo de Aplicaciones Web (DAW)**, apasionado por el desarr
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/DevJhere/DevJhere/main/assets/claude-code-daily.svg?v=72fd1ad7ed" width="100%" alt="Lines written with Claude Code per day since Oct 29, 2026: 12.8K in total, best day 6.9K on Oct 29" />
-<img src="https://raw.githubusercontent.com/DevJhere/DevJhere/main/assets/claude-code-languages.svg?v=11d3dedc23" width="100%" alt="Languages Claude Code wrote in the last 30 days: JavaScript 90%, Python 6%, HTML 3%, SQL 1%, CSS &lt;1%" />
+<img src="https://raw.githubusercontent.com/DevJhere/DevJhere/main/assets/claude-code-languages.svg?v=9addfead54" width="100%" alt="Languages Claude Code wrote in the last 30 days: JavaScript 90%, Python 6%, HTML 3%, SQL 1%, CSS &lt;1%" />
 
 <sub>Cada línea que Claude Code escribe en mi equipo · actualizado cada hora · Nov 6, 2026</sub>
 
