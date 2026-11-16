@@ -37,11 +37,11 @@ Estudiante de **Desarrollo de Aplicaciones Web (DAW)**, apasionado por el desarr
 <!-- activity:end -->
 
 <!-- languages:start -->
-![JavaScript](https://img.shields.io/badge/JavaScript-20.4K_lines-1e3a8a?style=flat-square&logo=javascript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-18.4K_lines-1e3a8a?style=flat-square&logo=openjdk&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-4.2K_lines-93c5fd?style=flat-square&logo=css3&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-20.2K_lines-1e3a8a?style=flat-square&logo=javascript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-18.1K_lines-1e3a8a?style=flat-square&logo=openjdk&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-3.3K_lines-93c5fd?style=flat-square&logo=css3&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-2.8K_lines-3b82f6?style=flat-square&logo=python&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-2.2K_lines-60a5fa?style=flat-square&logo=html5&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-1.9K_lines-60a5fa?style=flat-square&logo=html5&logoColor=black)
 <!-- languages:end -->
 
 </div>
